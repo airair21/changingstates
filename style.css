@@ -32,11 +32,15 @@
     padding: 5vw;
     text-align: center;
 
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 #rgbBODY {
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: greenyellow;
+    background-color: black;
+}
+#rgbBODY h2{
+    color: white;
 }
 
 /* br {
@@ -285,6 +289,7 @@ input {
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 

@@ -48,7 +48,7 @@ $('#addRed').mouseenter(function() {
     addRedInterval = setInterval(function() {
         changeNColor('r', 1); // Use changeNColor to update RGB values
         updateNColor(); // Call updateNColor after changing the RGB values
-    }, 33); // Add 1 to red every 33 milliseconds
+    }, 12); // Add 1 to red every 12 milliseconds
 }).mouseleave(function() {
     clearInterval(addRedInterval);
 });
@@ -58,7 +58,7 @@ $('#subtractRed').mouseenter(function() {
     subtractRedInterval = setInterval(function() {
         changeNColor('r', -1);
         updateNColor(); // Call updateNColor after changing the RGB values
-    }, 33); // Subtract 1 from red every 33 milliseconds
+    }, 12); // Subtract 1 from red every 12 milliseconds
 }).mouseleave(function() {
     clearInterval(subtractRedInterval);
 });
@@ -68,7 +68,7 @@ $('#addGreen').mouseenter(function() {
     addGreenInterval = setInterval(function() {
         changeNColor('g', 1); // Use changeNColor to update green value
         updateNColor(); // Call updateNColor after changing the RGB values
-    }, 33); // Add 1 to green every 33 milliseconds
+    }, 12); // Add 1 to green every 12 milliseconds
 }).mouseleave(function() {
     clearInterval(addGreenInterval);
 });
@@ -78,7 +78,7 @@ $('#subtractGreen').mouseenter(function() {
     subtractGreenInterval = setInterval(function() {
         changeNColor('g', -1); // Use changeNColor to update green value
         updateNColor(); // Call updateNColor after changing the RGB values
-    }, 33); // Subtract 1 from green every 33 milliseconds
+    }, 12); // Subtract 1 from green every 12 milliseconds
 }).mouseleave(function() {
     clearInterval(subtractGreenInterval);
 });
@@ -88,7 +88,7 @@ $('#addBlue').mouseenter(function() {
     addBlueInterval = setInterval(function() {
         changeNColor('b', 1); // Use changeNColor to update blue value
         updateNColor(); // Call updateNColor after changing the RGB values
-    }, 33); // Add 1 to blue every 33 milliseconds
+    }, 12); // Add 1 to blue every 12 milliseconds
 }).mouseleave(function() {
     clearInterval(addBlueInterval);
 });
@@ -98,7 +98,7 @@ $('#subtractBlue').mouseenter(function() {
     subtractBlueInterval = setInterval(function() {
         changeNColor('b', -1); // Use changeNColor to update blue value
         updateNColor(); // Call updateNColor after changing the RGB values
-    }, 33); // Subtract 1 from blue every 33 milliseconds
+    }, 12); // Subtract 1 from blue every 12 milliseconds
 }).mouseleave(function() {
     clearInterval(subtractBlueInterval);
 });
