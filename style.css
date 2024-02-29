@@ -1,0 +1,306 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+
+#cmykBODY {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+}
+#cmykBODY p {
+    text-indent: 5vw;
+}
+#cmykBODY br {
+    text-indent: 5vw;
+}
+#landingBODY {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex: auto;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 5vw;
+    text-align: center;
+
+    border: 5px solid red;
+}
+#rgbBODY {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+/* br {
+
+    line-height: 200%;
+} */
+p{
+    font-size: 12pt;
+}
+h2 {
+    color: black;
+}
+a {
+    transition: .5s;
+}
+a:hover {
+    font-size: 21pt;
+}
+
+.text {
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    
+    width: 80%;
+    align-self: center;
+}
+
+.container {
+    /* height: 100vh; */
+    /* background-color: rgb(122, 25, 25); */
+
+    font-size: 55pt;
+
+    display: flex;
+    flex-direction: column;
+/* 
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center; */
+
+    /* border: 2px solid red;  */
+        /* Add a red border for visibility */
+
+}
+.containerLinks {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+    text-align: justify;
+    justify-content: space-between;
+    padding: 2vw;
+}
+#cmykA{
+    color: #000;
+}
+#rbgA {
+    color: blue;
+}
+
+.ballBox {
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+    transform-origin: left;
+    transition: .5s;
+}
+/* .ballBox:hover {
+    transform-origin: right;
+} */
+.ball {
+    width: 3vh;
+    height: 3vh;
+    background-color: #000;
+    border-radius: 50%;
+    transition: .5s;
+}
+#box {
+    border-radius: 0%;
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#cmyk {
+    background-color: blue;
+    /* border-radius: 50%;
+    width: 25 vh;
+    height: 25 vh; */
+}
+
+.colorcircle {
+    background-color: blue;
+    border-radius: 50%;
+    width: 25vh;
+    height: 25vh;
+    padding: 5vw;
+}
+
+.circle {
+    width: 25vw;
+    height: 25vw;
+    padding: 5vw;
+    border-radius: 50%;
+    /* background-color: black;  */
+    /* Initial color */
+    align-self: center;
+    /* border: 1px solid black; */
+
+
+    
+    /* position: relative; */
+    /* width: 300px;
+    height: 300px; */
+    /* background-color: #000;  */
+        /* Background color for the dots */
+}
+#newCircle {
+    background-color: black;
+    
+}
+
+button {
+    border: none;
+    text-align: center;
+    align-items: center;
+    
+    /* line-height: 3rem; */
+    margin: auto;
+    padding: 5%;
+}
+.buttC {
+    width: 20vw;
+    height: 5vh;
+    /* background-color: rgb(58, 146, 146); */
+    margin: 5vw;
+
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+
+    justify-content: center;
+}
+#addCyan {
+    background-color: rgb(0, 255, 255);
+}
+#addMagenta {
+    background-color: rgb(255, 0, 255);
+}
+#addYellow {
+    background-color: rgb(255, 255, 0);
+}
+#addBlack {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#subtractCyan {
+    background-color: rgb(205, 255, 255);
+}
+#subtractMagenta {
+    background-color: rgb(255, 201, 255);
+}
+#subtractYellow {
+    background-color: rgb(255, 255, 199);
+}
+#subtractBlack {
+    background-color: rgb(219, 219, 219);
+}
+
+.landingButt {
+    border: 1px solid white;
+    background-color: #000;
+    color: white;
+
+    transition: .3s;
+}
+.landingButt:hover {
+    background-color: white;
+    color: black;
+}
+#notLink {
+    border: 0px;
+    background-color: #000;
+    color: white;
+}
+
+
+.buttR {
+    width: 20vw;
+    height: 5vh;
+    /* background-color: rgb(58, 146, 146); */
+    margin: 5vw;
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+
+    justify-content: center;
+}
+#addRed {
+    background-color: rgb(255, 0, 0);
+}
+#subtractRed {
+    background-color: rgb(255, 200, 200);
+}
+#addGreen {
+    background-color: rgb(0, 255, 0);
+}
+#subtractGreen {
+    background-color: rgb(200, 255, 200);
+}
+#addBlue {
+    background-color: rgb(0, 0, 255);
+}
+#subtractBlue {
+    background-color: rgb(200, 200, 255);
+}
+
+
+
+
+input {
+    width: 30%;
+}
+.colorInput {
+    width: 5%;
+    text-align: center;
+    border: 0px solid black;
+    background-color: rgb(255, 247, 234);
+}
+.colorInputR {
+    width: 5%;
+    text-align: center;
+    border: 0px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+/* .halftone-filter {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #000; 
+} */
+
+/* .dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff; 
+        Dot color
+    border-radius: 50%; 
+}  */

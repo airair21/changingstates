@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Changing States</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</head>
+<body id="cmykBODY">
+
+    
+    <div class="containerLinks" id="cmykA">
+        <a href="cmyk.html">PRINT</a>
+
+        <div class="ballBox">
+            <div class="ball"></div>
+        </div>
+
+        <a href="rgb.html" id="cmykA">WEB</a>
+    </div>
+
+    <div class="container">
+
+
+        <div class="text">
+            <p  style="font-style: italic;">
+                Hover over each of the buttons to add or subtract the respective color from the mix. Or feel free to type in the number codes directly into the text boxes.
+            </p>
+        </div>
+
+        <div class="colors">
+            <div class="buttons">
+                <button class="buttC" id="addCyan">Add Cyan</button>
+                <button class="buttC" id="addMagenta">Add Magenta</button>
+                <button class="buttC" id="addYellow">Add Yellow</button>
+                <button class="buttC" id="addBlack">Add Black</button>
+            </div>
+    
+            <div class="circle" id="circle"></div>
+    
+            <div class="buttons">
+                <button class="buttC" id="subtractCyan">Subtract Cyan</button>
+                <button class="buttC" id="subtractMagenta">Subtract Magenta</button>
+                <button class="buttC" id="subtractYellow">Subtract Yellow</button>
+                <button class="buttC" id="subtractBlack">Subtract Black</button>
+            </div>
+        </div>
+    
+        <div class="colors">
+            <h2>C</h2>
+            <input type="text" id="cText" class="colorInput" placeholder="C">
+            <h2>M</h2>
+            <input type="text" id="mText" class="colorInput" placeholder="M">
+            <h2>Y</h2>
+            <input type="text" id="yText" class="colorInput" placeholder="Y">
+            <h2>K</h2>
+            <input type="text" id="kText" class="colorInput" placeholder="K">
+        </div>
+
+        <div class="text">
+            <p>
+                CMYK is a color mixing system that uses cyan, magenta, yellow and black (K) inks. It is primarily used in print (business cards, posters, brochures, banners). 
+                In 1906, the Eagle Printing Ink Company incorporated the four-color wet process inks for the first time. They discovered that these four colors can be combined to produce an almost unlimited number of richer, darker tones. 
+                CMYK is a subtractive color model. To explain this we need a little science lesson. The sunlight bouncing around is basically white light – all the wavelengths, or colors in the spectrum at the same time. Those light wavelengths interact with the world, and our eyes interpret those interactions as color. When sunlight hits a bright green surface, the surface “absorbs” some of the red, orange and violet colors and reflects the blue, green and yellow colors that we see. So the colors are “subtracted” in a way. Another way to think about this is when you mix cyan, magenta and yellow you get black. 
+                When printing a color picture, the image is separated into four related versions: cyan, magenta, yellow and black. Each image is made into a plate onto which the right concentration of colored ink is applied. When the four plates each print onto a page, the colors recombine and form the original image. 
+                <br> </p>
+                <p>
+                Fun Fact: If you want what they call a “rich black” you will use all four colors – CMYK. 
+            </p>
+            <p> <br> </p>
+            <p>
+                <span style="font-style: italic;">Why does K stand for Black? </span>
+            </p>
+            <p>
+                Ask your printer if they know what the K stands for. If they are a good printer, they will tell you the K stands for “key”. In four-color printing, cyan, magenta and yellow printing plates are carefully keyed, or aligned with the key of the black key plate. Some people say that the K comes from the last letter in “black” and was chosen because B already means blue…WRONG!
+            </p>
+
+            <br>
+
+            <p>
+                Black is used in this color mode because even the purest combination of cyan, magenta, and yellow (all lighter colors) cannot create a fully black color. 
+                CMYK uses subtractive colors, not additive. Adding colors together in CMYK mode has the opposite effect on the result as RGB does; the more color added, the darker the results. Therefore, colors are taken away or subtracted to create a light result.
+                This is because the CMYK colors absorb light, meaning that more ink results in less light. Combining cyan, magenta, and yellow will create a deep brown. It isn’t until the key (black) is added that the color is removed completely.
+                <br> <br>
+                The CMYK values are measured in percentages. For example, to make the CMYK color white, the values should be entered into the design software as: 
+                <br>
+                C: 100%
+                <br>
+                M: 100%
+                <br>
+                Y: 100%
+                <br>
+                K: 100% 
+                </p>
+                <p> <br> </p>
+                <p>
+                Interestingly enough, setting CMY to 0% and K to 100% does not create the darkest black possible.
+                </p> 
+                <p>
+                To create a “true” black, the following values should be entered:
+                <br>
+                C: 75%
+                <br>
+                M: 68%
+                <br>
+                Y: 67%
+                <br>
+                K: 90%
+                </p>
+                <p>
+                This is called “rich black” or “Photoshop black” and is a much more pure black because it absorbs the most light. This color isn’t used often because the physical amount of ink that it takes to produce it can rip lower-quality paper. That’s intense.
+                </p> 
+                <p>
+                Additionally, using too much ink encourages smearing, which makes the text much more difficult to read. When using black, there are a few different versions that are used by designers that won’t rip a hole through your project. 
+                <br>
+                Cool Black: 60 . 0 . 0 . 100
+                <br>
+                Warm Black: 0 . 60 . 30 . 100
+                <br>
+                Designer Black: 70 . 50 . 30 . 100
+                <br>
+                Rich Black: 75 . 68 . 67 . 90
+            </p>
+        </div>
+
+       
+
+    </div>
+    
+
+
+
+
+    <script src="sc.js"></script>
+</body>
+</html>
