@@ -133,9 +133,13 @@ cmykLink.addEventListener('click', function(event) {
             // Redirect to the linked page after a delay
             setTimeout(function() {
                 window.location.href = 'cmyk.html';
-            }, 1000); // Delay of 1 second (1000 milliseconds)
+            }, 500); // Delay of 1 second (1000 milliseconds)
         });
     });
 });
+
+ball.addEventListener('click', function(event) {
+    window.location.href = 'index.html';
+})
   
 });

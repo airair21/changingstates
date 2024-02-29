@@ -248,7 +248,7 @@ rgbLink.addEventListener('click', function(event) {
             // Redirect to the linked page after a delay
             setTimeout(function() {
                 window.location.href = 'rgb.html';
-            }, 1000); // Delay of 1 second (1000 milliseconds)
+            }, 500); // Delay of 1 second (1000 milliseconds)
         });
     });
 });
@@ -325,7 +325,9 @@ $('#subtractRed').mouseenter(function() {
 updateNColor(); // Update color initially
 
   
-  
+ball.addEventListener('click', function(event) {
+    window.location.href = 'index.html';
+})
   
   
 
