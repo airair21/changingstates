@@ -241,7 +241,7 @@ rgbLink.addEventListener('click', function(event) {
         // $(this).css('justify-content', 'flex-end');
 
         // Animate the scaleX transform of .ballBox back to 1 over 0.5 seconds
-        $(this).animate({ transform: 'scaleX(1)' }, 250, function() {
+        $(this).animate({ transform: 'scaleX(1)' }, 50, function() {
             // Change the border radius to 0%
             $('.ball').css('border-radius', '0%');
 
