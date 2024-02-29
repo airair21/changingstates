@@ -8,7 +8,7 @@
 #cmykBODY {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
-    background-color: blanchedalmond;
+    background-color: rgb(255, 244, 227);
 }
 #cmykBODY p {
     text-indent: 5vw;
@@ -41,6 +41,7 @@
 }
 #rgbBODY h2{
     color: white;
+
 }
 
 /* br {
@@ -52,6 +53,8 @@ p{
 }
 h2 {
     color: black;
+
+    transition: .3s;
 }
 a {
     transition: .5s;
@@ -70,6 +73,8 @@ a:hover {
     
     width: 80%;
     align-self: center;
+
+    transition: .3s;
 }
 
 .container {
@@ -105,10 +110,10 @@ a:hover {
 #cmykA:visited {
     color: #000;
 }
-#rbgA {
+#rgbA {
     color: blue;
 }
-#rbgA:visited {
+#rgbA:visited {
     color: blue;
 }
 
@@ -196,8 +201,8 @@ button {
     padding: 5%;
 }
 .buttC {
-    width: 20vw;
-    height: 5vh;
+    width: 10vw;
+    height: 10vw;
     /* background-color: rgb(58, 146, 146); */
     margin: 5vw;
 
@@ -206,6 +211,8 @@ button {
     align-content: center;
 
     justify-content: center;
+
+    border-radius: 50%;
 }
 #addCyan {
     background-color: rgb(0, 255, 255);
@@ -324,3 +331,25 @@ input {
         Dot color
     border-radius: 50%; 
 }  */
+
+
+@media only screen and (max-width: 600px)
+    {
+
+        h2 {
+            font-size: 40px;
+        }
+
+        .text {
+            width: 100%;
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 4%;
+            padding-bottom: 4%;
+        }
+
+        .colorInputR {
+            margin: 1%;
+        }
+
+    }
