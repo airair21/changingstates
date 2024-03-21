@@ -329,9 +329,11 @@ button {
 
 
 .buttR {
-    width: 30vw;
-    height: 5vh;
+    width: 40vw;
+    height: 7vw;
     margin: 5vw;
+
+    /* border: 2px solid white; */
 
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
