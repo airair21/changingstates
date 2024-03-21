@@ -191,6 +191,12 @@ a:hover {
 
     margin: 2vh;
 }
+.colorAS {
+    font-size: 10vw;
+}
+#rgbAS {
+    color: white;
+}
 
 #cmyk {
     background-color: blue;
@@ -323,7 +329,7 @@ button {
 
 
 .buttR {
-    width: 20vw;
+    width: 30vw;
     height: 5vh;
     margin: 5vw;
 
@@ -423,6 +429,7 @@ input {
 }
 #splash p {
     padding-top: 30vw;
+    font-size: 50%;
 }
 #splashC {
     position: absolute;
@@ -436,6 +443,7 @@ input {
 }
 #splashC p {
     padding-top: 30vw;
+    font-size: 50%;
 }
 #rSplashButt {
     color: yellowgreen;

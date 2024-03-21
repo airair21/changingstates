@@ -2,10 +2,12 @@ $(document).ready(function() {
 
 
     $('#splash').css('opacity', '1'); // doing this with jQuery for ease
+    $('#rgbBODY').css('overflow', 'hidden');
 
   // here are the basics, just like your existing code
   $("#splash").click(function() {
     $("#splash").fadeOut("slow"); // you could also use $(this).fadeOut('slow');
+    $('#rgbBODY').css('overflow', 'visible');
   });
 
 

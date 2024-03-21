@@ -1,10 +1,12 @@
 $(document).ready(function() {
 
     $('#splashC').css('opacity', '1'); // doing this with jQuery for ease
+    $('#cmykBODY').css('overflow', 'hidden');
 
   // here are the basics, just like your existing code
   $("#splashC").click(function() {
     $("#splashC").fadeOut("slow"); // you could also use $(this).fadeOut('slow');
+    $('#cmykBODY').css('overflow', 'visible');
   });
 
 
