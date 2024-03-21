@@ -1,4 +1,14 @@
 $(document).ready(function() {
+
+    $('#splashC').css('opacity', '1'); // doing this with jQuery for ease
+
+  // here are the basics, just like your existing code
+  $("#splashC").click(function() {
+    $("#splashC").fadeOut("slow"); // you could also use $(this).fadeOut('slow');
+  });
+
+
+
     let cyan = 0;
     let magenta = 0;
     let yellow = 0;
