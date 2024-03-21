@@ -27,46 +27,63 @@
     <div class="container">
 
 
-        <div class="text">
-            <p  style="font-style: italic;">
-                Hover over each of the buttons to add or subtract the respective color from the mix.
-            </p>
-        </div>
+       
 
-        <div class="colors">
-            <div class="buttons">
-                <button class="buttC" id="addCyan">Add Cyan</button>
-                <button class="buttC" id="addMagenta">Add Magenta</button>
-                <button class="buttC" id="addYellow">Add Yellow</button>
-                <button class="buttC" id="addBlack">Add Black</button>
+        <div class="colorBlock">
+
+            <div class="text2">
+                <p  style="font-style: italic;">
+                    Hover over each of the buttons to add or subtract the respective color from the mix.
+                </p>
+            </div>
+
+            <div class="colors" id="screenp">
+                <h3 class="colorAS">
+                    add
+                </h3>
+                <div class="buttons">
+                    
+                    <button class="buttC" id="addCyan">Cyan</button>
+                    <button class="buttC" id="addMagenta">Magenta</button>
+                    <button class="buttC" id="addYellow">Yellow</button>
+                    <button class="buttC" id="addBlack">Black</button>
+                </div>
+        
+                <div class="circle" id="circle"></div>
+        
+                
+                <div class="buttons">
+                    
+                    <button class="buttC" id="subtractCyan">Cyan</button>
+                    <button class="buttC" id="subtractMagenta">Magenta</button>
+                    <button class="buttC" id="subtractYellow">Yellow</button>
+                    <button class="buttC" id="subtractBlack">Black</button>
+                </div>
+                <h3 class="colorAS">
+                    subtract
+                </h3>
+            </div>
+        
+            <div class="colors">
+                <h2>C</h2>
+                <input type="text" id="cText" class="colorInput" placeholder="C">
+                <h2>M</h2>
+                <input type="text" id="mText" class="colorInput" placeholder="M">
+                <h2>Y</h2>
+                <input type="text" id="yText" class="colorInput" placeholder="Y">
+                <h2>K</h2>
+                <input type="text" id="kText" class="colorInput" placeholder="K">
             </div>
     
-            <div class="circle" id="circle"></div>
-    
-            <div class="buttons">
-                <button class="buttC" id="subtractCyan">Subtract Cyan</button>
-                <button class="buttC" id="subtractMagenta">Subtract Magenta</button>
-                <button class="buttC" id="subtractYellow">Subtract Yellow</button>
-                <button class="buttC" id="subtractBlack">Subtract Black</button>
+            <div class="text2">
+                <p  style="font-style: italic;">
+                    Or feel free to type in the number codes directly into the text boxes.
+                    <br><br><br><br>
+                </p>
             </div>
         </div>
-    
-        <div class="colors">
-            <h2>C</h2>
-            <input type="text" id="cText" class="colorInput" placeholder="C">
-            <h2>M</h2>
-            <input type="text" id="mText" class="colorInput" placeholder="M">
-            <h2>Y</h2>
-            <input type="text" id="yText" class="colorInput" placeholder="Y">
-            <h2>K</h2>
-            <input type="text" id="kText" class="colorInput" placeholder="K">
-        </div>
 
-        <div class="text">
-            <p  style="font-style: italic;">
-                Or feel free to type in the number codes directly into the text boxes.
-            </p>
-        </div>
+        
 
         <div class="text">
             <p>
@@ -86,7 +103,9 @@
                 Ask your printer if they know what the K stands for. If they are a good printer, they will tell you the K stands for “key”. In four-color printing, cyan, magenta and yellow printing plates are carefully keyed, or aligned with the key of the black key plate. Some people say that the K comes from the last letter in “black” and was chosen because B already means blue…WRONG!
             </p>
 
-            <br>
+            <p>
+                <br>
+            </p>
 
             <p>
                 Black is used in this color mode because even the purest combination of cyan, magenta, and yellow (all lighter colors) cannot create a fully black color. 
@@ -95,13 +114,13 @@
                 <br> <br>
                 The CMYK values are measured in percentages. For example, to make the CMYK color white, the values should be entered into the design software as: 
                 <br>
-                C: 100%
+                &emsp;  C: 100%
                 <br>
-                M: 100%
+                &emsp;  M: 100%
                 <br>
-                Y: 100%
+                &emsp; Y: 100%
                 <br>
-                K: 100% 
+                &emsp;  K: 100% 
                 </p>
                 <p> <br> </p>
                 <p>
@@ -110,13 +129,13 @@
                 <p>
                 To create a “true” black, the following values should be entered:
                 <br>
-                C: 75%
+                &emsp; C: 75%
                 <br>
-                M: 68%
+                &emsp;  M: 68%
                 <br>
-                Y: 67%
+                &emsp;  Y: 67%
                 <br>
-                K: 90%
+                &emsp; K: 90%
                 </p>
                 <p>
                 This is called “rich black” or “Photoshop black” and is a much more pure black because it absorbs the most light. This color isn’t used often because the physical amount of ink that it takes to produce it can rip lower-quality paper. That’s intense.
@@ -124,13 +143,13 @@
                 <p>
                 Additionally, using too much ink encourages smearing, which makes the text much more difficult to read. When using black, there are a few different versions that are used by designers that won’t rip a hole through your project. 
                 <br>
-                Cool Black: 60 . 0 . 0 . 100
+                &emsp; Cool Black: 60 . 0 . 0 . 100
                 <br>
-                Warm Black: 0 . 60 . 30 . 100
+                &emsp; Warm Black: 0 . 60 . 30 . 100
                 <br>
-                Designer Black: 70 . 50 . 30 . 100
+                &emsp; Designer Black: 70 . 50 . 30 . 100
                 <br>
-                Rich Black: 75 . 68 . 67 . 90
+                &emsp; Rich Black: 75 . 68 . 67 . 90
             </p>
         </div>
 

@@ -9,6 +9,11 @@
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 244, 227);
+
+    font-size: 12pt;
+}
+#cmykBODY .text {
+    padding-top: 0;
 }
 #cmykBODY p {
     text-indent: 5vw;
@@ -44,17 +49,28 @@
 
 }
 
+.colorAS {
+    text-align: center;
+
+    margin: 3vw;
+    font-size: 12px;
+    text-indent: 0vw;
+    /* padding-left: 5vw; */
+}
+
 /* br {
 
     line-height: 200%;
 } */
-p{
+p {
     font-size: 12pt;
 }
 h2 {
     color: black;
 
     transition: .3s;
+    font-size: 30px;
+    padding: 1.5%;
 }
 a {
     transition: .5s;
@@ -66,10 +82,25 @@ a:hover {
 }
 
 .text {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    
+    /* width: 80%; */
+    align-self: center;
+
+    transition: .3s;
+
+    column-count: 4;
+    column-gap: 2vh;
+
+}
+.text2{
     padding-left: 12%;
     padding-right: 12%;
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     
     width: 80%;
     align-self: center;
@@ -77,6 +108,11 @@ a:hover {
     transition: .3s;
 }
 
+.colorBlock {
+    display: flex;
+    flex-direction: column;
+    /* height: 50vh; */
+}
 .container {
     /* height: 100vh; */
     /* background-color: rgb(122, 25, 25); */
@@ -85,6 +121,8 @@ a:hover {
 
     display: flex;
     flex-direction: column;
+
+    /* height: 70vh; */
 /* 
     align-items: center;
     text-align: center;
@@ -150,6 +188,8 @@ a:hover {
     align-content: center;
     justify-content: center;
     align-items: center;
+
+    margin: 2vh;
 }
 
 #cmyk {
@@ -191,6 +231,16 @@ a:hover {
     
 }
 
+.buttons {
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 15vw;
+    margin: 5vw;
+}
+
 button {
     border: none;
     text-align: center;
@@ -204,7 +254,12 @@ button {
     width: 10vw;
     height: 10vw;
     /* background-color: rgb(58, 146, 146); */
-    margin: 2vw;
+    /* margin: 2vw; */
+    /* margin: -3vh;
+    margin-left: 3vw;
+    margin-right: 3vw; */
+
+    margin: -3vh;
 
     display: flex;
     font-family: 'Times New Roman', Times, serif;
@@ -213,6 +268,15 @@ button {
     justify-content: center;
 
     border-radius: 50%;
+
+    mix-blend-mode: multiply;
+    transition: .3s;
+
+
+    /* flex-grow: 2; */
+}
+.buttC:hover {
+    /* flex-grow: 2; */
 }
 #addCyan {
     background-color: rgb(0, 255, 255);
@@ -289,13 +353,26 @@ button {
 }
 
 
+#screenp {
+    margin-top: 0;
+}
+#pixels {
+    margin: 0;
+    height: 60vh;
+}
+#rGB {
+    margin: 0;
+}
+
+
 
 
 input {
-    width: 30%;
+    width: 100%;
+    font-size: 8vw;
 }
 .colorInput {
-    width: 5%;
+    width: 13%;
     text-align: center;
     border: 0px solid black;
     background-color: rgb(255, 251, 246);
@@ -303,7 +380,7 @@ input {
     font-family: 'Times New Roman', Times, serif;
 }
 .colorInputR {
-    width: 5%;
+    width: 15%;
     text-align: center;
     border: 0px solid rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -350,6 +427,49 @@ input {
 
         .colorInputR {
             margin: 1%;
+        }
+
+        .buttC {
+            margin: -1vh;
+            font-size: 8pt;
+            margin-left: 3vh;
+            margin-right: 3vh;
+            
+            width: 15vw;
+            height: 15vw;
+        }
+        
+        .colorBlock {
+            height: auto;
+        }
+
+        .text {
+            padding-left: 4vw;
+            padding-right: 4vw;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            
+            column-count: 2;
+            column-gap: 2vh;
+
+            height: auto;
+        
+        }
+
+        .circle {
+            width: 40vw;
+            height: 40vw;
+            padding: 5vw;
+        }
+
+        .containerLinks {
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+
+            text-align: justify;
+            justify-content: space-between;
+            padding: 4vw;
         }
 
     }

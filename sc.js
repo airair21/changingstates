@@ -244,6 +244,8 @@ rgbLink.addEventListener('click', function(event) {
         $(this).animate({ transform: 'scaleX(1)' }, 50, function() {
             // Change the border radius to 0%
             $('.ball').css('border-radius', '0%');
+            $('.ball').css('height', '100vh');
+            $('.ball').css('width', '100vh');
 
             // Redirect to the linked page after a delay
             setTimeout(function() {
