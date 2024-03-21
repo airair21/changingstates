@@ -246,6 +246,15 @@ a:hover {
     width: 15vw;
     margin: 5vw;
 }
+.buttonsRGB {
+    width: 30vw;
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5vw;
+}
 
 button {
     border: none;
@@ -329,8 +338,8 @@ button {
 
 
 .buttR {
-    width: 40vw;
-    height: 7vw;
+    width: 10vw;
+    height: 10vw;
     margin: 5vw;
 
     /* border: 2px solid white; */
@@ -371,6 +380,7 @@ button {
 #rGB {
     margin: 0;
     padding-bottom: 3vh;
+    padding-top: 3vh;
 }
 
 
@@ -430,7 +440,7 @@ input {
     display: flex;
 }
 #splash p {
-    padding-top: 30vw;
+    padding-top: 30vh;
     font-size: 50%;
 }
 #splashC {
@@ -444,7 +454,7 @@ input {
     display: flex;
 }
 #splashC p {
-    padding-top: 30vw;
+    padding-top: 30vh;
     font-size: 50%;
 }
 #rSplashButt {
