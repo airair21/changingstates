@@ -451,6 +451,7 @@ input {
     color: black;
     background-color: rgb(255, 244, 227);
     border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
 }
 #cSplashButt:hover {
     color: rgb(255, 244, 227);
